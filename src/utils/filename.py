@@ -1,6 +1,3 @@
-from string import punctuation
-
-
 def get_filename(text: str) -> str:
     punctuations = ['.', ',']
     empty = ''
@@ -22,7 +19,7 @@ def get_filename(text: str) -> str:
 
 
 def main():
-    original_name = '844. Backspace String Compare'
+    original_name = '905. Sort Array By Parity'
     filename = get_filename(original_name)
     print(filename)
 
