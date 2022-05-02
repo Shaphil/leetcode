@@ -19,9 +19,9 @@ def get_filename(text: str) -> str:
 
 
 def main():
-    original_name = '905. Sort Array By Parity'
+    original_name = input('Please insert the problem name: ')
     filename = get_filename(original_name)
-    print(filename)
+    print('\x1b[0;34m' + filename + '\x1b[0m')
 
 
 if __name__ == '__main__':
