@@ -31,7 +31,7 @@ class Solution:
         elif lenb > lena:
             headB = self.skip_nodes(headB, lenb - lena)
 
-        while headA.next:
+        while headA:
             if headA is headB:
                 return headB
 
