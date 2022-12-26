@@ -9,6 +9,7 @@
 
 # Custom files and folders
 *.exe
+*.o
 data/
 data/**
 static/
