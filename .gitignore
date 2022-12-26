@@ -8,6 +8,7 @@
 .idea/**
 
 # Custom files and folders
+*.exe
 data/
 data/**
 static/
