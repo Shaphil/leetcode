@@ -18,6 +18,8 @@ def get_filename(text: str) -> str:
     return text
 
 
+# TODO: Consider adding functionalities with click
+# https://click.palletsprojects.com/en/8.1.x/
 def main():
     original_name = input('Please insert the problem name: ')
     filename = get_filename(original_name)
