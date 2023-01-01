@@ -7,10 +7,12 @@ def get_filename(text: str) -> str:
         text = text.replace(p, empty)
 
     space = ' '
+    dash = '-'
     under = '_'
 
-    # replace spaces with underscores
+    # replace spaces and dashes with underscores
     text = text.replace(space, under)
+    text = text.replace(dash, under)
 
     # lowercase text
     text = text.lower()
