@@ -1,9 +1,10 @@
 """
 https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/
-https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/?envType=study-plan&id=programming-skills-i
 
+O(1)
 Runtime: 34 ms
 Memory: 13.9 MB
+https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/submissions/865170025/
 """
 
 
