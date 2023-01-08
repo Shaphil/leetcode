@@ -1,9 +1,10 @@
 """
-https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/?envType=study-plan&id=programming-skills-i
 https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/
 
+O(n)
 Runtime: 41 ms
 Memory: 13.8 MB
+https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/submissions/865241087/
 """
 
 from typing import List
