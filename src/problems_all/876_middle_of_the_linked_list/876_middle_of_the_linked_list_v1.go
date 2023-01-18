@@ -46,19 +46,3 @@ func printList(head *ListNode) {
 		current = current.Next
 	}
 }
-
-// class Solution:
-//     def middleNode(self, head: ListNode) -> ListNode:
-//         length = 0
-//         current = head
-//         while current:
-//             current = current.next
-//             length += 1
-
-//         length = length // 2
-//         current = head
-//         while length > 0:
-//             current = current.next
-//             length -= 1
-
-//         return current
