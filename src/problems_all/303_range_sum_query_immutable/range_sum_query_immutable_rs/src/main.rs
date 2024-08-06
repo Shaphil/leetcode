@@ -1,3 +1,9 @@
+/*
+Runtime:    9 ms
+Memory:     8.4 MB
+Submission: https://leetcode.com/problems/range-sum-query-immutable/submissions/1346725588/
+*/
+
 fn main() {
     let nums = Vec::from([1, 2, 3, 4, 5]);
     let arr = NumArray::new(nums);
