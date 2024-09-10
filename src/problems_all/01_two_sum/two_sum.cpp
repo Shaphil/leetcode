@@ -38,9 +38,7 @@ int main() {
     Solution solution;
 
     result = solution.twoSum(nums, target);
-    for (auto item : result) {
-        cout << item << endl;
-    }
+    cout << "[" << result[0] << ", " << result[1] << "]" << endl;
 
     return 0;
 }
