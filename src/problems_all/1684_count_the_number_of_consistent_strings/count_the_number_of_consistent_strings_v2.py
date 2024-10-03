@@ -1,7 +1,7 @@
 """
-Runtime:    186 ms
-Memory:     14.23 MB
-Submission: https://leetcode.com/problems/count-the-number-of-consistent-strings/submissions/1410391521/
+Runtime:    192 ms
+Memory:     14.03 MB
+Submission: https://leetcode.com/problems/count-the-number-of-consistent-strings/submissions/1410398933/
 """
 
 from collections import Counter
