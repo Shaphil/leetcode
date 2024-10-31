@@ -30,7 +30,6 @@ class Solution:
         res = self.binary_search(nums, 0, len(nums) - 1, target)
         if res != -1:
             return res
-
         else:
             for i, v in enumerate(nums):
                 if v > target:
