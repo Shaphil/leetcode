@@ -1,5 +1,11 @@
 """
-https://leetcode.com/problems/remove-element/
+Runtime:    49 ms
+Beats:      5.75%
+Memory:     13.79 MB
+Beats:      100.00%
+https://leetcode.com/problems/remove-element/submissions/773526221/
+Topics:     #array, #two-pointers
+Solved by:  #two-pointers
 """
 
 from typing import List
