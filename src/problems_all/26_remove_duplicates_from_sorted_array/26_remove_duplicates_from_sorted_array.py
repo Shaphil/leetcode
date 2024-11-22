@@ -1,4 +1,8 @@
 """
+Runtime:    83 ms
+Beats:      5.05%
+Memory:     15.61 MB
+Beats:      100.00%
 https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 """
 
@@ -17,7 +21,6 @@ class Solution:
 
 
 if __name__ == '__main__':
-    s = Solution()
-
-    nums = [1, 1, 2]
-    print(s.removeDuplicates(nums))
+    nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
+    result = Solution().removeDuplicates(nums)
+    print(result)
