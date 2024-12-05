@@ -1,8 +1,8 @@
 """
-Runtime:            1106 ms
-Beats:              28.42%
-Memory:             29.92 MB
-Beats:              40.59%
+Runtime:            1018 ms
+Beats:              45.47%
+Memory:             30.91 MB
+Beats:              18.41%
 Submission:         https://leetcode.com/problems/minimum-time-to-complete-trips/submissions/1471119377/
 Time complexity:    O(n * log(m)), where, n = len(time) and m = totalTrips * max(time)
 Space Complexity:   O(1)
