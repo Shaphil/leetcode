@@ -1,10 +1,12 @@
 /*
-https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/
 
-O(1)
-Runtime: 0 ms
-Memory: 1.9 MB
-https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/submissions/873924721/
+Runtime:            0 ms
+Memory:             1.9 MB
+Submission:         https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/submissions/873924721/
+Time complexity:    O(1)
+Space complexity:   O(1)
+Topics:             #math
+Solved By:          #math
 */
 
 package main
