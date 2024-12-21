@@ -1,9 +1,13 @@
 """
-https://leetcode.com/problems/contains-duplicate/description/
-
-Runtime: 584 ms
-Memory: 26.1 MB
-https://leetcode.com/problems/contains-duplicate/submissions/678186913/
+Runtime:            584 ms
+Beats:              5.04%
+Memory:             26.1 MB
+Beats:              95.39%
+Submission:         https://leetcode.com/problems/contains-duplicate/submissions/678186913/
+Time complexity:    O(n)
+Space complexity:   O(n)
+Topics:             #array, #hash-table, #sorting
+Solved By:          #hash-table
 """
 
 from typing import List
