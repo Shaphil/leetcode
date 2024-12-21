@@ -1,9 +1,13 @@
 /*
-https://leetcode.com/problems/contains-duplicate/description/
-
-Runtime: 105 ms
-Memory: 9.6 MB
-https://leetcode.com/problems/contains-duplicate/submissions/881242084/
+Runtime:            105 ms
+Beats:              5.39%
+Memory:             9.6 MB
+Beats:              96.17%
+Submission:         https://leetcode.com/problems/contains-duplicate/submissions/881242084/
+Time complexity:    O(n)
+Space complexity:   O(n)
+Topics:             #array, #hash-table, #sorting
+Solved By:          #hash-table
 */
 
 package main
