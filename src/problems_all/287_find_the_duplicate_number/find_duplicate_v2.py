@@ -1,8 +1,8 @@
 """
-Runtime:            78 ms
-Beats:              15.03%
-Memory:             30.01 MB
-Beats:              31.54%
+Runtime:            30 ms
+Beats:              45.56%
+Memory:             30.18 MB
+Beats:              26.34%
 Submission:         https://leetcode.com/problems/find-the-duplicate-number/submissions/1499698833/
 Time complexity:    O(n)
 Space complexity:   O(1)
