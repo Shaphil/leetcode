@@ -1,0 +1,6 @@
+[package]
+name = "find_all_numbers_v2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
