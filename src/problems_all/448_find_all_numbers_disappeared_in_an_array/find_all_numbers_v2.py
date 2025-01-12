@@ -3,9 +3,9 @@ Runtime:            21 ms
 Beats:              81.49%
 Memory:             31.34 MB
 Beats:              33.33%
-Submission:         https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/submissions/1506278667/
+Submission:         https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/submissions/1506297041/
 Time complexity:    O(n)
-Space complexity:   O(n)
+Space complexity:   O(1)
 Topics:             #array, #hash-table
 Solved By:          #hash-set
 """
