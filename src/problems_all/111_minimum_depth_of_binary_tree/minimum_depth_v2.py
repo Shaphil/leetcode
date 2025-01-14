@@ -1,15 +1,16 @@
 """
-Runtime:            31 ms
-Beats:              67.65%
-Memory:             50.39 MB
-Beats:              21.78%
-Submission:         https://leetcode.com/problems/minimum-depth-of-binary-tree/submissions/1508455372/
+Runtime:            0 ms
+Beats:              100.00%
+Memory:             49.94 MB
+Beats:              46.60%
+Submission:         https://leetcode.com/problems/minimum-depth-of-binary-tree/submissions/1508464444/
 Time complexity:    O(n)
-Space complexity:   O(h) avg, where `h` = tree height, O(n) worst
+Space complexity:   O(n)
 Topics:             #tree, #bfs, #dfs, #binary-tree
-Solved By:          #dfs
+Solved By:          #bfs
 """
 
+from collections import deque
 from typing import Optional
 
 
@@ -51,12 +52,17 @@ class Solution:
         if not root:
             return 0
 
-        if not root.left:
-            return 1 + self.minDepth(root.right)
-        if not root.right:
-            return 1 + self.minDepth(root.left)
+        queue = deque([(root, 1)])  # (node, depth)
+        while queue:
+            node, depth = queue.popleft()
 
-        return 1 + min(self.minDepth(root.left), self.minDepth(root.right))
+            if not node.left and not node.right:
+                return depth
+
+            if node.left:
+                queue.append((node.left, depth + 1))
+            if node.right:
+                queue.append((node.right, depth + 1))
 
 
 if __name__ == '__main__':
