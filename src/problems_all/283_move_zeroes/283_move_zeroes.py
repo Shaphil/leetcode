@@ -2,9 +2,13 @@
 https://leetcode.com/problems/move-zeroes/description/
 
 
-Runtime: 44 ms
-Memory: 15.1 MB
-https://leetcode.com/problems/move-zeroes/submissions/319600574/
+Runtime:            44 ms
+Runtime Beats:      12.86%
+Memory:             15.1 MB
+Memory Beats:       100.00%
+Topics:             #array, #two-pointers
+Solved By:          #two-pointers
+Submission:         https://leetcode.com/problems/move-zeroes/submissions/319600574/
 """
 
 
