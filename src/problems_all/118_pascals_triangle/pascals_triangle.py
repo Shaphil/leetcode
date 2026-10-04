@@ -1,13 +1,13 @@
 """
-Runtime:            31 ms
-Beats:              67.65%
-Memory:             50.39 MB
-Beats:              21.78%
-Submission:         https://leetcode.com/problems/minimum-depth-of-binary-tree/submissions/1508455372/
-Time complexity:    O(n)
-Space complexity:   O(h) avg, where `h` = tree height, O(n) worst
-Topics:             #tree, #bfs, #dfs, #binary-tree
-Solved By:          #dfs
+Runtime:            0 ms
+Beats:              100.00%
+Memory:             19.28 MB
+Beats:              70.13%
+Submission:         https://leetcode.com/problems/pascals-triangle/submissions/2117452578/
+Time complexity:    O(n^2)
+Space complexity:   O(n^2)
+Topics:             #array, #dynamic-programming
+Solved By:          #array
 """
 
 from typing import List
@@ -16,7 +16,7 @@ class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
         triangle = []
 
-        for i in range(numRows):
+        for i in range(numRows + 1):
             row = [1]
 
             if triangle:
@@ -27,9 +27,9 @@ class Solution:
 
             triangle.append(row)
 
-        return triangle
+        return triangle[numRows]
 
 if __name__ == '__main__':
-    numRows = 5
+    numRows = 1
     result = Solution().generate(numRows)
     print(result)
